@@ -5,9 +5,9 @@
 
 
 ##利用star 构建参考基因组 index 脚本
-STAR_path="~/liangyue/miniconda/bin/STAR"
-file_path="~/zhenggm/red_cell_pub_up_Anal/STAR/GRCh37"
-index_path='~/zhenggm/red_cell_pub_up_Anal/STAR/GRCh37'
+STAR_path="~/miniconda/bin/STAR"
+file_path="~/red_cell_pub_up_Anal/STAR/GRCh37"
+index_path='~/red_cell_pub_up_Anal/STAR/GRCh37'
 ## gtf 注释文件下载  https://www.gencodegenes.org/human/release_43lift37.html
 ## fasta 文件下载  nohup wget  --no-check-certificate https://193.62.193.139/pub/grch37/current/fasta/homo_sapiens/dna/Homo_sapiens.GRCh37.dna.primary_assembly.fa.gz &
 cd ${index_path}

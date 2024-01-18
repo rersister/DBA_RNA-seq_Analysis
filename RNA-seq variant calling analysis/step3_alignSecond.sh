@@ -5,10 +5,10 @@
 
 
 ##利用star 构建参考基因组 index 脚本
-STAR_path="/xtdisk/fangxd_group/liangyue/miniconda/bin/STAR"
-STAR2genome='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/2.star2genome'
-wk_path='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants'
-dataDir='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10'
+STAR_path="~/miniconda/bin/STAR"
+STAR2genome='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/2.star2genome'
+wk_path='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants'
+dataDir='~/DBA_BulkRNA_10'
 cd ${wk_path}
 
 #gzip 解压

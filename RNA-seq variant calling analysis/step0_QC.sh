@@ -4,9 +4,9 @@
 #HSCHED -s hschedd 
 
 # author zhenggm  QC为 fastQC  的安装地址
-QC="/xtdisk/fangxd_group/liangyue/miniconda/bin/fastqc"
-wkdir="/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10"
-dataDir="/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/rawdata"
+QC="~/miniconda/bin/fastqc"
+wkdir="~/DBA_BulkRNA_10"
+dataDir="~/DBA_BulkRNA_10/rawdata"
 cd ${wkdir}
 
 

@@ -3,12 +3,12 @@
 #PBS -l nodes=1:ppn=5,mem=100gb,walltime=40:00:00 
 #HSCHED -s hschedd 
 
-gatk='/pnas/fangxd_group/zhenggm/software/yes/bin/gatk'
-samtools='/pnas/fangxd_group/zhenggm/software/yes/envs/samtools-1.16/bin/samtools'
-ref_genome='/xtdisk/fangxd_group/zhenggm/red_cell_pub_up_Anal/STAR/GRCh37/GRCh37.primary_assembly.genome.fa'
-dbsnp='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/dbsnp/all_coChr.vcf'
-pre_BAM='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/3.mapping-2'
-outdir_pre='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/4.variants-calling' #输出文件路径outdir=$5 #输出文件路径
+gatk='~/software/yes/bin/gatk'
+samtools='~/software/yes/envs/samtools-1.16/bin/samtools'
+ref_genome='~/red_cell_pub_up_Anal/STAR/GRCh37/GRCh37.primary_assembly.genome.fa'
+dbsnp='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/dbsnp/all_coChr.vcf'
+pre_BAM='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/3.mapping-2'
+outdir_pre='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/4.variants-calling' #输出文件路径outdir=$5 #输出文件路径
 
 cat sample.txt |while read id
 do

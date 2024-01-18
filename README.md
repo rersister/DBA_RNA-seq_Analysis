@@ -1,4 +1,4 @@
-# DBA_RNA-seq_Analysis
+# DBA RNA-seq Analysis
 We established a pipeline to analyze DiamondBlackfan Anemia patient's RNA-seq. Including 
 
 1.RNA-seq and scRNA-seq analysis pipline

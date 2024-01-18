@@ -4,10 +4,10 @@
 #HSCHED -s hschedd 
 
 
-STAR_path="/xtdisk/fangxd_group/liangyue/miniconda/bin/STAR"
-STAR_index="/xtdisk//fangxd_group/zhenggm/red_cell_pub_up_Anal/STAR/GRCh37/star-index"
-wk_path='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants'
-dataDir='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10'
+STAR_path="~/miniconda/bin/STAR"
+STAR_index="~/red_cell_pub_up_Anal/STAR/GRCh37/star-index"
+wk_path='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants'
+dataDir='~/DBA_BulkRNA_10'
 cd ${wk_path}
 
 ###star 进行map

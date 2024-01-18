@@ -3,12 +3,12 @@
 #PBS -l nodes=1:ppn=5,mem=100gb,walltime=40:00:00 
 #HSCHED -s hschedd 
 
-STAR_path="/xtdisk/fangxd_group/liangyue/miniconda/bin/STAR"
-STAR_index="/xtdisk//fangxd_group/zhenggm/red_cell_pub_up_Anal/STAR/GRCh37/star-index"
-refer_fast='/xtdisk/fangxd_group/zhenggm/red_cell_pub_up_Anal/STAR/GRCh37'
-wk_path='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants'
-dataDir='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10'
-STAR2genome='/xtdisk/fangxd_group/zhenggm/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/2.star2genome'
+STAR_path="~/miniconda/bin/STAR"
+STAR_index="~/red_cell_pub_up_Anal/STAR/GRCh37/star-index"
+refer_fast='~/red_cell_pub_up_Anal/STAR/GRCh37'
+wk_path='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants'
+dataDir='~/DBA_BulkRNA_10'
+STAR2genome='~/DBA_BulkRNA_10/GATK-RNA-seq2call_variants/2.star2genome'
 cd ${wk_path}
 
 

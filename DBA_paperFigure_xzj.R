@@ -1,10 +1,6 @@
 
-####
-@Author: xzj
-@Date: 20240118
-@Time: 
-@Description: Figures in paper
-####
+#### @Author: xzj @Date: 20240118 @Description: Figures in paper  ####
+
 ###fig1F
 rna <- read_csv("H:/dba/cellline/rna.rpkm.csv")
 ery_gene=c('TF','TFRC','GYPA','GATA1','KLF1','LMO2','NFE2','BCL11A',
